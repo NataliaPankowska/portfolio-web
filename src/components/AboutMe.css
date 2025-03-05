@@ -1,0 +1,16 @@
+.about-me{
+    width: 40vw;
+    font-size: 15px;
+    /* padding-left: 7vw; */
+}
+@media only screen and (max-width: 769px){
+    .about-me{
+        width: 80vw
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .about-me{
+        width: 80vw
+    }
+}

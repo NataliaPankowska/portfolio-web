@@ -1,0 +1,128 @@
+.presentation{
+    padding: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   overflow: scroll; 
+    max-width: 100%;
+
+}
+
+
+
+.projects-title{
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.img-roww{
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    padding: 0;
+}
+
+.img-roww.two{
+    align-items: flex-start;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.img-roww.three{
+    align-items: flex-start;
+    gap: 5%;
+    /* justify-content: center; */
+    /* margin-top: 100px; */
+}
+
+.img-roww.op{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+align-items: flex-start;
+}
+.imgg{
+    box-shadow: -1px 1px 4px 1px rgba(48, 48, 48, 0.3);
+    
+}
+
+.imgg.one{
+    width: 50%
+}
+.imgg.two{
+    position: absolute;
+    left: 42%;
+    width: 60%;
+    margin-top: 5%;
+    /* border-left: solid 40px rgb(168, 233, 194); */
+    border-bottom: solid 40px rgb(168, 233, 194);
+    box-sizing: border-box;
+  
+}
+
+.img.mob{
+    width: 25%
+}
+
+
+.opiss{
+    width: 70%;
+   font-weight: 600;
+  padding:40px;
+  border: solid 1px white;
+  background: rgb(255,255,255);
+  background: linear-gradient(319deg, rgba(255,255,255,1) 50%, rgb(243, 242, 242) 100%);
+  /* box-shadow: -2px 2px 2px 1px rgba(48, 48, 48, 0.3); */
+}
+.opiss.technical{
+    background: rgb(224, 224, 224);
+    width: auto;
+    font-weight: 400;
+    align-self: flex-start;
+}
+
+.slider-video{
+    width: 80%;
+    box-shadow: -1px 1px 4px 1px rgba(48, 48, 48, 0.3);
+    align-self: flex-start;
+}
+
+@media only screen and (max-width: 480px){
+    .img-roww{
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+    }
+    .img-roww.two{
+        align-items: center;
+        gap: 20px;
+        /* justify-content: center; */
+        margin-top: 20px;
+    }
+    .img-roww.three{
+        align-items: flex-start;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .imgg.one{
+        width: 100%
+    }
+    .imgg.two{
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: 0;
+        /* border-left: solid 40px rgb(168, 233, 194); */
+        border-bottom: solid 40px rgb(168, 233, 194);
+        box-sizing: border-box;
+      
+    }
+    
+    .img.mob{
+        width: 50%;
+    }
+}
+

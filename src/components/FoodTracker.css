@@ -1,0 +1,134 @@
+.presentation{
+    padding: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   overflow: scroll; 
+    max-width: 100%;
+
+}
+.projects-title{
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.img-row{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0;
+}
+
+.img-row.bis{
+    margin-top: 200px;
+}
+.img-row.op{
+    margin-top: 150px;
+
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: flex-start;
+}
+
+.img-row.butt{
+justify-content: left;
+gap: 30px;
+}
+
+
+.img{
+    box-shadow: -1px 1px 4px 1px rgba(48, 48, 48, 0.3);
+    border: solid 1px white;
+}
+
+.img.one{
+    width: 70%
+}
+img.two{
+    position: absolute;
+    left: 60%;
+    width: 25%;
+    margin-top: 5%;
+
+}
+
+.img.three{
+    width: 60%;
+}
+
+img.four{
+    width: 25%;
+}
+
+.opis-decoration{
+    width: 100px;
+    height: 100px;
+    background: rgb(242,242,242);
+    background: linear-gradient(90deg, rgba(242,242,242,1) 0%, rgba(222,222,222,1) 100%);
+    
+}
+
+.opis{
+    width: 70%;
+  /* align-self: start; */
+   font-weight: 600;
+  padding:40px;
+   /* filter: drop-shadow(-10px 10px 1px rgba(255, 205, 67, 0.3)); */
+  border: solid 1px white;
+  background: rgb(255,255,255);
+  background: linear-gradient(319deg, rgba(255,255,255,1) 50%, rgb(243, 242, 242) 100%);
+  /* box-shadow: -2px 2px 2px 1px rgba(48, 48, 48, 0.3); */
+}
+.opis.technical{
+    background: rgb(224, 224, 224);
+    width: auto;
+    font-weight: 400;
+}
+
+.live-prev{
+    background-color: #e25931;
+    width: 150px;
+    height:70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-prev a{
+    color: white;
+    font-weight: 700;
+  
+    align-self: center;
+}
+.live-prev.git{
+background-color: rgb(126, 126, 126);
+}
+
+.live-prev:hover{
+    color: white;
+}
+
+
+@media only screen and (max-width: 480px){
+    .img-row{
+    flex-direction: column;
+    gap: 20px;
+    }
+    .img-row.bis{
+        margin-top: 20px;
+    }
+    .img-row.op{
+        margin-top: 20px;
+    }
+    .img.one{
+        width: 100%;
+    }
+    img.two{
+        position: relative;
+        left: 0;
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,30 @@
+.section {
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+   width: 100vw;
+   
+}
+.container{
+   padding-left: 7vw;
+   width: 100%;
+   position: relative;
+  
+
+  
+}
+.container.two{
+   padding-left: 0;
+}
+
+
+
+.section.dev{
+   /* background-color: rgb(50, 26, 73); */
+   align-items: flex-start;
+   position: relative;
+   /* flex-direction: column; */
+  
+}
+
+

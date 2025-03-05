@@ -1,0 +1,140 @@
+.shape-container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+}
+
+.shape{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+    box-shadow: -1px 1px 4px 1px rgba(48, 48, 48, 0.3);
+    
+    
+}
+.shape.one{
+    background-color:rgb(3 13 205);
+}
+.shape.two{
+    background:  #ffd700;
+    
+}
+
+.shape.three{
+    background-color: #ce4900;
+}
+
+.project-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.project-icon.one{
+    border-radius: 1000px;
+
+}
+.project-icon.one.a{
+    background-color:  rgb(255, 255, 255);
+
+
+}
+
+.project-icon.one.b{
+
+    background: #ffd700;
+
+
+} 
+
+.project-icon.one.b.top{
+
+    opacity: .4;
+} 
+
+
+
+.project-icon.one.c{
+
+    background: #ffd700;
+
+    border-radius: 0;
+} 
+
+
+
+.project-icon.two.a{
+    clip-path: polygon(50% 0, 100% 80%, 0 80%);
+    background-color:  rgb(255, 255, 255);
+  
+}
+
+.project-icon.two.b{
+    clip-path: polygon(40% 50%, 100% 50%, 70% 90%);
+    background-color:  #ce4900
+}
+
+.project-icon.two.c{
+    margin-left: 100%;
+    background: rgb(252, 222, 28, 0.4);
+}
+
+.project-icon.three.a{
+   width: 70%;
+   height: 70%;
+   margin-top: 20%;
+    background-color:   rgb(3 13 205);
+
+}
+
+.project-icon.three.b{
+    width: 30%;
+    height: 30%;
+
+    margin-left: 50%;
+     background-color:   rgb(255, 255, 255);
+}
+
+.project-icon.three.c{
+  
+    background: rgb(3 13 205)
+}
+
+.mobile-project{
+    background-color: white;
+    padding: 10px;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 769px){
+    .shape-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .shape{
+        width: 50vw;
+        height: 50vw;
+        }
+    .mobile-project{
+        display: block;
+       
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .shape{
+        width: 70vw;
+        height: 70vw;
+        }
+   
+}

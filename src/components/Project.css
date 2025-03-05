@@ -1,0 +1,26 @@
+
+
+.project{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 110;
+    overflow-y: auto;
+    overflow-x: auto;
+   margin: 0;
+}
+
+.project-close-button{
+    background-color: rgba(118, 128, 136, 0.3);
+    position: fixed;
+    right: 0px;
+    /* top: 20px; */
+    border-radius: 0;
+    color: black;
+    z-index: 100;
+
+}
+
