@@ -16,10 +16,11 @@
     
 }
 .shape.one{
-    background-color:rgb(3 13 205);
+    background-color:rgb(18, 20, 65);
 }
 .shape.two{
     background:  #ffd700;
+    /* background: #fff700; */
     
 }
 
@@ -46,7 +47,8 @@
 
 .project-icon.one.b{
 
-    background: #ffd700;
+    /* background: #ffd700; */
+    background: #ffe877;
 
 
 } 
@@ -60,7 +62,8 @@
 
 .project-icon.one.c{
 
-    background: #ffd700;
+    background: #ffa470;
+    /* background: #ffd700; */
 
     border-radius: 0;
 } 
@@ -87,7 +90,7 @@
    width: 70%;
    height: 70%;
    margin-top: 20%;
-    background-color:   rgb(3 13 205);
+    background-color:   rgb(18, 20, 65);
 
 }
 
@@ -101,7 +104,7 @@
 
 .project-icon.three.c{
   
-    background: rgb(3 13 205)
+    background: rgb(18, 20, 65);
 }
 
 .mobile-project{
