@@ -1,10 +1,13 @@
 {
     "main": "I’m a digital creator based in Aix-en-Provence. I love to design, I love to code, and I love to learn. As a jack-of-all-trades in web design, I transform ideas into clean and functional digital products. I’m currently open to new job opportunities and eager to hear about your exciting projects.",
     "pankowski_portfolio_hover_title": "Art Portfolio",
+    "pankowski_portfolio_mobile_title": "Pankowski Art Website",
     "pankowski_portfolio_hover": "A minimalist and elegant website showcasing the work of painter Piotr Pańkowski. Developed on Webflow.",
     "food_tracker_hover_title": "Food Tracker App",
+    "food_tracker_mobile_title": "Food Tracker Web App",
     "food_tracker_hover": "A simple and intuitive web application that helps you determine if you've consumed enough calories today. Built with React.ts.",
     "portfolio_template_hover": "A coded template for an art website. Designed for artists, built with React.ts.",
+    "portfolio_template_mobile_title": "React Template for art website",
     "portfolio_template_hover_title": "Template for Art Portfolio",
     "pankowski_portfolio_title": "Piotr Pańkowski Art Website",
     "pankowski_portfolio_main": "I designed and developed this website to showcase the contemplative and authentic artwork of Piotr Pańkowski. My goal was to create a digital space that reflects the artist’s philosophy, emphasizing simplicity and elegance. Using Webflow, I retained creative control over the design while ensuring a seamless, responsive user experience. The layout places the paintings at the forefront, enhancing the storytelling behind each piece. This project highlights my approach to minimalist design and intuitive navigation.",

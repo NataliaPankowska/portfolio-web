@@ -79,7 +79,7 @@ const Shapes = ({onHover, onHoverEnd, onClick}: Props) => {
             }
             />     
           
-              <h2 className='mobile-project'>{t("pankowski_portfolio_hover_title")}</h2>
+              <h2 className='mobile-project'>{t("pankowski_portfolio_mobile_title")}</h2>
 
           
              
@@ -117,7 +117,7 @@ const Shapes = ({onHover, onHoverEnd, onClick}: Props) => {
             }}
           
             />
-            <h2 className='mobile-project'>{t("food_tracker_hover_title")}</h2>
+            <h2 className='mobile-project'>{t("food_tracker_mobile_title")}</h2>
         </motion.div>
         <motion.div className='shape three'
         key='three'
@@ -156,7 +156,7 @@ const Shapes = ({onHover, onHoverEnd, onClick}: Props) => {
                 ease: [0, 0.71, 0.2, 1.01],}
               }}
             />
-            <h2 className='mobile-project'>{t("portfolio_template_hover_title")}</h2>
+            <h2 className='mobile-project'>{t("portfolio_template_mobile_title")}</h2>
         </motion.div>
     </div>
   )
